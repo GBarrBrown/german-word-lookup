@@ -1,24 +1,6 @@
-# Boilerplate: Knex.js
+# German Word Lookup
+### The Translator -  Der Übersetzer
 
-Phase 1 boilerplate project with:
+- A word lookup site for storing German to English translations as I learn them
 
- - Express
- - Knex
- - SQLite3
- - Express Handlebars
- - body-parser
- - Jest
- - nodemon
-
-
-## Install
-
-```
-yarn
-yarn knex migrate:latest
-yarn knex seed:run
-yarn dev
-```
-
-Be sure to check out the other npm scripts too.
-
+- Ability to view, add, edit and delete words and translations along with displaying the gender of the word.
