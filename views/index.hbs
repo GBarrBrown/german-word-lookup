@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>G2E-Lookup</title>
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <h1 class="title">Der Übersetzer - The Translator</h1>
-    
-    <form action="/" method="post" class="search-form">
-      <input type="text" name="search-word" class="search-input" placeholder="Search..">
-    </form>
+<h1 class="title">Der Übersetzer - The Translator</h1>
 
-    <ul>
-    {{#each users}}
-      <li>{{name}} ({{email}})</li>
-    {{/each}}
-    </ul>
-  </body>
-</html>
+<form action="/" method="post" class="search-form">
+  <input type="text" name="search-word" class="search-input" placeholder="Search..">
+</form>
+
+<ul>
+{{#each users}}
+  <li>{{name}} ({{email}})</li>
+{{/each}}
+</ul>
