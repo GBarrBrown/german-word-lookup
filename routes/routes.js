@@ -23,4 +23,8 @@ router.get('/add', (req, res) => {
   res.render('add-word')
 })
 
+router.post('/add-word', (req, res) => {
+  res.redirect('/')
+})
+
 module.exports = router
