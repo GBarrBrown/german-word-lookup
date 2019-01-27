@@ -6,8 +6,10 @@
   </head>
   <body>
     <h1 class="title">Der Übersetzer - The Translator</h1>
-
-    <input type="text" class="search" placeholder="Search..">
+    
+    <form action="/" method="post" class="search-form">
+      <input type="text" name="search-word" class="search-input" placeholder="Search..">
+    </form>
 
     <ul>
     {{#each users}}

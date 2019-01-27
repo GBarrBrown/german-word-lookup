@@ -14,4 +14,9 @@ router.get('/', (req, res) => {
     })
 })
 
+router.post('/', (req, res) => {
+  var form = req.body
+  res.redirect('/')
+})
+
 module.exports = router
