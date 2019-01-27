@@ -1,10 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Aleo');
 
-body {
+
+
+html, body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
     Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* color: rgb(43, 49, 50) */
+    color: #F0EBF4;
+}
+
+body {
+    /* background-color: rgb(149, 174, 195) */
+    background-color: #A1C3D1
 }
 
 .top-banner {
-    background-color: rgb(156, 159, 198);
+    /* background-color: rgb(156, 159, 198); */
+    /* background-color: rgb(64, 106, 132); */
+    /* background-color: #F172A1; */
+    background-color: #E64398;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.title {
+    /* margin: 0; */
+    /* color: rgb(170, 170, 170); */
+    /* padding: 10px; */
+    padding-left: 10px;
+    color: #B39BC8
+
 }
