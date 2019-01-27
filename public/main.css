@@ -1,1 +1,6 @@
-.
+@import url('https://fonts.googleapis.com/css?family=Aleo');
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
