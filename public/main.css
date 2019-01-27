@@ -24,6 +24,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: auto;
+    text-align: left;
 }
 
 .title {
@@ -31,6 +32,11 @@ body {
     /* color: rgb(170, 170, 170); */
     /* padding: 10px; */
     padding-left: 10px;
-    color: #B39BC8
+    margin: 20px;
+    color: rgb(43, 49, 50);
+    font-size: 300%;
+}
 
+.title-secondary {
+    color: #B39BC8;
 }
