@@ -12,7 +12,7 @@ router.post('/', (req, res) => {
   var searchStr = (req.body.searchStr)
   db.searchWord(searchStr)
   .then(results => {
-    res.render('index', results)
+    res.render('index', {results})
   })
 })
 
