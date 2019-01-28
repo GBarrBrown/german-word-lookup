@@ -15,8 +15,11 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-  var form = req.body
-  res.redirect('/')
+  var searchStr = (req.body.searchStr)
+  db.searchWord(searchStr)
+  .then(results => {
+    res.render('index', results)
+  })
 })
 
 router.get('/add', (req, res) => {

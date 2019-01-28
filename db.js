@@ -4,7 +4,8 @@ const connection = require('knex')(config)
 
 module.exports = {
   getUser: getUser,
-  getUsers: getUsers
+  getUsers: getUsers,
+  searchWord: searchWord
 }
 
 function getUsers (db = connection) {
@@ -13,4 +14,8 @@ function getUsers (db = connection) {
 
 function getUser (id, db = connection) {
   return db('users').where('id', id).first()
+}
+
+function searchWord (searchStr, db = connection) {
+  return db('german_words').where('word', searchStr).first()
 }
