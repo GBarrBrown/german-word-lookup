@@ -17,5 +17,5 @@ function getUser (id, db = connection) {
 }
 
 function searchWord (searchStr, db = connection) {
-  return db('german_words').where('word', searchStr).first()
+  return db('german_words').where('word', 'like', ''+searchStr+'%').select()
 }
