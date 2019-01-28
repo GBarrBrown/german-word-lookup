@@ -40,3 +40,21 @@ body {
 .title-secondary {
     color: #B39BC8;
 }
+
+.search-container {
+    margin: 50px;
+    text-align: center;
+}
+
+.search-input {
+    width: 40%;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.search-input {
+    /* border-radius: 4em; */
+    /* border: solid; */
+}
