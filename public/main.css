@@ -60,3 +60,13 @@ body {
     padding: 18px;
     border: 4px solid #B39BC8;
 }
+
+.outter-results-container {
+    text-align: center;
+}
+
+.results-container {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
