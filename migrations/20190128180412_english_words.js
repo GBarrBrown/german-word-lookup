@@ -1,9 +1,9 @@
 
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable('english_words', (table) => {
-      table.increments('id').primary()
-      table.string('word')
-  })
+    return knex.schema.createTable('english_words', (table) => {
+        table.increments('id').primary()
+        table.string('word')
+    })
 };
 
 exports.down = function(knex, Promise) {
