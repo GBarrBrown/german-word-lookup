@@ -6,8 +6,8 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('english_words').insert([
         {id: 1, word: 'The'},
-        {id: 2, word: 'The'},
-        {id: 3, word: 'The'}
+        {id: 2, word: 'I'},
+        {id: 3, word: 'You'}
       ]);
     });
 };
