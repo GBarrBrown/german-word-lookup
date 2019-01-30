@@ -7,7 +7,9 @@ exports.seed = function(knex, Promise) {
       return knex('german_words').insert([
         {id: 1, word: 'Die', gender: 'Feminine'},
         {id: 2, word: 'Das', gender: 'Neuter'},
-        {id: 3, word: 'Der', gender: 'Masculine'}
+        {id: 3, word: 'Der', gender: 'Masculine'},
+        {id: 4, word: 'Du', gender: 'NA'},
+        {id: 5, word: 'Ich', gender: 'NA'}
       ]);
     });
 };
