@@ -80,8 +80,11 @@ body {
 }
 
 .add-word-button {
-    background-color: #4CAF50;
-    font-size: 30px;
+    background-color: #E64398;
+    /* color: #B39BC8; */
+    color: rgb(43, 49, 50);
+    font-weight: 900;
+    font-size: 50px;
     /* padding: 20px; */
     border-radius: 30px;
     width: 70px;
